@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.grid-container {
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    height: 600px;
+    border: 2px solid white;
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+    border: 1px solid white;
+    flex: 1;
+}
