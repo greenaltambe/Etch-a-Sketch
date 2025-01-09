@@ -5,21 +5,21 @@ body {
     gap: 20px;
     width: 100vw;
     height: 100vh;
-    background-color: #C9B79C;
+    background-color: #F9AB55;
 }
 
 input {
     padding: 5px;
     border-radius: 8px;
-    background-color: #F1E0C5;
-    color: #342A21;
+    background-color: #F7F5FB;
+    color: #084887;
 }
 
 button {
     padding: 5px;
     border-radius: 8px;
-    color: #342A21;
-    background-color: #DA667B;
+    color: #F7F5FB;
+    background-color: #084887;
 }
 
 .grid-container {
@@ -27,9 +27,9 @@ button {
     margin: 0;
     width: 600px;
     height: 600px;
-    background-color: #F1E0C5;
-    border: 1px solid #342A21;
-    box-shadow: 10px 10px 10px #342a2187;
+    background-color: #F7F5FB;
+    border: 1px solid #909CC2;
+    box-shadow: 10px 10px 10px #909cc23f;
     display: flex;
 }
 
@@ -40,6 +40,6 @@ button {
 }
 
 .square {
-    border: 1px solid #342A21;
+    border: 1px solid #909CC2;
     flex: 1;
 }

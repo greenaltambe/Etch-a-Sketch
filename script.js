@@ -27,12 +27,13 @@ resetButton.addEventListener("click", () => {
 });
 
 let opacity = 0;
+
 function getRandomColor() {
-    opacity = opacity + 0.1 > 1 ? opacity: opacity + 0.1;
+    opacity = Math.min(opacity + 0.1, 1);
     let r = Math.floor(Math.random() * 256);
     let g = Math.floor(Math.random() * 256);
     let b = Math.floor(Math.random() * 256);
-    return `rgba(${r}, ${g}, ${b}, ${opacity})`
+    return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 }
 
 function addRow(squareColumn) {
